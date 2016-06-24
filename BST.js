@@ -69,17 +69,3 @@ function buildTree(h) {
 }
 
 var tree = new buildTree(treeSize); // Will build a tree 4 levels deep
-
-console.log(JSON.stringify(tree));
-
-
-function isBSTValid(bst) {
-  // write the body of your function here
-
-  buildTree(4);
-  return true;
-}
-
-// run your function through some test cases here
-// remember: debugging is half the battle!
-console.log(isBSTValid('test input'));
